@@ -18,5 +18,3 @@ def Disk_Benchmark():
     BenchMarkDisk(n, prime)
     end = time.time()
     return math.ceil(1000000 / (end - start))
-
-Disk_Benchmark()
