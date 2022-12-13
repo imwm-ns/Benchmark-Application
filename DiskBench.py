@@ -10,7 +10,6 @@ def BenchMarkDisk(n, primeNum):
 
     with open('test.txt', 'r') as file :
         line = file.readlines()
-        print(line)
 
 def Disk_Benchmark():
     n = 100000000
